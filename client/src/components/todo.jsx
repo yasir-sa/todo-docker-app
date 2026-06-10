@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import API from '../api';
-import './Todo.css';
+import './todo.css';
 
 const Todo = () => {
   const [todos, setTodos] = useState([]);
